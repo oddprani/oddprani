@@ -6,4 +6,4 @@ Howdy!🤖
 - 💬 Ask me about building applications using ai lol
 - 📫 How to reach me: vivekkalgurti@gmail.com
 - 😄 Pronouns: male
-- ⚡ Fun fact: i dont like complicated stuff 
+- ⚡ Fun fact: Im afraid of Numbers

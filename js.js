@@ -51,38 +51,11 @@ ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
-
-document.querySelector('form').addEventListener('submit', function(e) {
-    e.preventDefault(); // Prevents the form from submitting immediately
-
-    var form = this;
-    var formData = new FormData(form);
-    
-    // Send the data to Formspree using the Fetch API (you can also use Ajax)
-    fetch(form.action, {
-        method: 'POST',
-        body: formData,
-    })
-    .then(response => {
-        if (response.ok) {
-            alert('Your message has been sent! Thank you for reaching out.');
-            form.reset();  // Reset form after submission
-        } else {
-            alert('Oops, something went wrong. Please try again later.');
-        }
-    });
-    
-document.addEventListener('DOMContentLoaded', function() {
-    // Other initialization code...
-
-    // Typed.js Initialization
-    const typed = new Typed('.multiple-text', {
-        strings: ['Freelance Editor', 'Youtuber', 'Graphic Designer'],
-        typeSpeed: 100,
-        backSpeed: 100,
-        backDelay: 1000,
-        loop: true
-    });
+/* Typed.js Initialization */
+const typed = new Typed('.multiple-text', {
+    strings: ['Freelance Editor', 'Youtuber', 'Graphic Designer'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
 });
-
-

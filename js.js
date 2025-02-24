@@ -74,7 +74,7 @@ document.querySelector('form').addEventListener('submit', function(e) {
     
 /* Typed.js Initialization */
 const typed = new Typed('.multiple-text', {
-    strings: ['Freelancer', 'Programmer', 'Graphic Designer'],
+    strings: ['Freelance Editor', 'Youtuber', 'Graphic Designer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,

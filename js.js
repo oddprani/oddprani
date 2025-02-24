@@ -73,13 +73,16 @@ document.querySelector('form').addEventListener('submit', function(e) {
     });
     
 document.addEventListener('DOMContentLoaded', function() {
+    // Other initialization code...
+
+    // Typed.js Initialization
     const typed = new Typed('.multiple-text', {
         strings: ['Freelance Editor', 'Youtuber', 'Graphic Designer'],
         typeSpeed: 100,
         backSpeed: 100,
         backDelay: 1000,
         loop: true
+    });
 });
-
 
 

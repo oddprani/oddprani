@@ -79,7 +79,6 @@ document.addEventListener('DOMContentLoaded', function() {
         backSpeed: 100,
         backDelay: 1000,
         loop: true
-    });
 });
 
 

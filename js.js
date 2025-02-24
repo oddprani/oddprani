@@ -72,13 +72,14 @@ document.querySelector('form').addEventListener('submit', function(e) {
         }
     });
     
-/* Typed.js Initialization */
-const typed = new Typed('.multiple-text', {
-    strings: ['Freelance Editor', 'Youtuber', 'Graphic Designer'],
-    typeSpeed: 100,
-    backSpeed: 100,
-    backDelay: 1000,
-    loop: true
+document.addEventListener('DOMContentLoaded', function() {
+    const typed = new Typed('.multiple-text', {
+        strings: ['Freelance Editor', 'Youtuber', 'Graphic Designer'],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true
+    });
 });
 
 
